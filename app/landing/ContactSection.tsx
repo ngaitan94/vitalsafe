@@ -28,10 +28,10 @@ export function ContactSection() {
             </p>
             <p className="mt-8 text-[17px]">
               <a
-                href="mailto:comercial@vitalsafe.example?subject=Consulta%20SST%20Chile"
+                href="mailto:jvicuna@vitalsafe.cl?subject=Consulta%20SST%20Chile"
                 className="apple-link"
               >
-                comercial@vitalsafe.example
+                jvicuna@vitalsafe.cl
               </a>
             </p>
             <p className="mt-3 text-[14px] text-[var(--apple-tertiary)]">
@@ -40,18 +40,6 @@ export function ContactSection() {
 
             <footer className="mt-14 border-t border-[var(--apple-border-light)] pt-8 text-[12px] leading-relaxed text-[var(--apple-tertiary)]">
               <p>© {new Date().getFullYear()} VitalSafe. Información comercial.</p>
-              <p className="mt-2">
-                Fotografías de apoyo vía{" "}
-                <a
-                  href="https://unsplash.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="apple-link"
-                >
-                  Unsplash
-                </a>
-                ; conviene reemplazarlas por imágenes propias de su equipo y faenas.
-              </p>
               <p className="mt-3">
                 <a href="#" className="apple-link">
                   Privacidad
