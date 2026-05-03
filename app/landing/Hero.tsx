@@ -1,4 +1,5 @@
 import { BrandLogo } from "./BrandLogo";
+import { HeroBackdropVideo } from "./HeroBackdropVideo";
 import { photos } from "./photos";
 
 const topics = [
@@ -20,18 +21,11 @@ export function Hero() {
         style={{ backgroundImage: `url(${photos.hero})` }}
         aria-hidden
       />
-      <video
-        className="hero-bg-video absolute inset-0 z-[1] h-full w-full object-cover"
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="metadata"
+      <HeroBackdropVideo
         poster={photos.hero}
-        aria-label="Video de fondo: ambiente de trabajo en equipo"
-      >
-        <source src="/videos/hero.webm" type="video/webm" />
-      </video>
+        videoSrc="/videos/hero.webm"
+        videoAriaLabel="Video de fondo: ambiente de trabajo en equipo"
+      />
       <div
         className="absolute inset-0 z-[2] bg-gradient-to-b from-black/55 via-black/[0.38] to-black/72"
         aria-hidden

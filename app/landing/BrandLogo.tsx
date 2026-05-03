@@ -19,6 +19,7 @@ export function BrandLogo({ variant = "header", priority = false }: Props) {
       height={150}
       priority={priority}
       sizes={isHero ? "72px" : "36px"}
+      unoptimized
       className={
         isHero
           ? "h-[72px] w-[72px] rounded-2xl object-cover shadow-[0_8px_32px_rgba(0,0,0,0.35)] ring-1 ring-white/35"
