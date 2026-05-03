@@ -9,6 +9,6 @@ export const photos = {
   fiscalizacion: `https://images.unsplash.com/photo-1450101499163-c8848c66ca85?${q}`,
   cercania: `https://images.unsplash.com/photo-1556761175-5973dc0f32e7?${q}`,
   cercaniaAlt: "Dos personas conversando con una laptop en una mesa",
-  contacto: `https://images.unsplash.com/photo-1600880292203-75761962b0b4?${q}`,
+  contacto: `https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?${q}`,
   contactoAlt: "Personas en videollamada sonriendo, ambiente de trabajo remoto",
 } as const;
