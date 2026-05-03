@@ -9,8 +9,7 @@ type Props = {
 };
 
 /**
- * Safari (y otros) a veces no reproducen WebM: el <video> queda como capa opaca y tapa la foto de fondo.
- * Si hay error de carga/decodificación, quitamos el video y deja verse el gradiente + imagen CSS detrás.
+ * Si el video falla al cargar o decodificar, se oculta para no tapar la imagen de fondo (poster + capa z-0).
  */
 export function HeroBackdropVideo({ poster, videoSrc, videoAriaLabel }: Props) {
   const [removeVideo, setRemoveVideo] = useState(false);
@@ -35,7 +34,7 @@ export function HeroBackdropVideo({ poster, videoSrc, videoAriaLabel }: Props) {
       aria-label={videoAriaLabel}
       onError={onVideoError}
     >
-      <source src={videoSrc} type="video/webm" />
+      <source src={videoSrc} type="video/mp4" />
     </video>
   );
 }

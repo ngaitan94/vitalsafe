@@ -10,9 +10,7 @@ const topics = [
   "Fiscalización DT / SEREMI",
 ];
 
-/**
- * Video de fondo: `/public/videos/hero.webm` (demo). Sustituir por metraje propio.
- */
+/** Video: `public/videos/hero.mp4` (Pexels, uso permitido por licencia). */
 export function Hero() {
   return (
     <section className="relative isolate flex min-h-[min(88svh,820px)] items-center justify-center overflow-hidden border-b border-black/10 sm:min-h-[min(90svh,880px)]">
@@ -23,8 +21,8 @@ export function Hero() {
       />
       <HeroBackdropVideo
         poster={photos.hero}
-        videoSrc="/videos/hero.webm"
-        videoAriaLabel="Video de fondo: ambiente de trabajo en equipo"
+        videoSrc="/videos/hero.mp4"
+        videoAriaLabel="Video de fondo: obra de construcción, profesional con casco revisa planos en terreno — contexto de supervisión y prevención"
       />
       <div
         className="absolute inset-0 z-[2] bg-gradient-to-b from-black/55 via-black/[0.38] to-black/72"

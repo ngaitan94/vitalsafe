@@ -14,7 +14,7 @@ const blocks = [
     body:
       "Cuando hay mandante y varias empresas en la cadena, alineamos roles y entregables para que la exigencia del 66 bis quede respaldada con hechos, no solo con firmas duplicadas.",
     src: photos.obras,
-    alt: "Trabajadores con casco en obra, revisando planos",
+    alt: "Faena de construcción en desarrollo, contexto de obra y coordinación en terreno",
   },
   {
     title: "Antes de una fiscalización",

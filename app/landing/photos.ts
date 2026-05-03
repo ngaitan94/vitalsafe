@@ -2,10 +2,10 @@
 const q = "w=1600&q=82&auto=format&fit=crop";
 
 export const photos = {
-  hero: `https://images.unsplash.com/photo-1522071820081-009f0129c71c?${q}`,
-  heroAlt: "Personas en reunión revisando ideas en una pared",
+  hero: `https://images.unsplash.com/photo-1504307651254-35680f356dfd?${q}`,
+  heroAlt: "Trabajadores en obra con casco y chaleco reflectante, contexto de construcción",
   norma: `https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?${q}`,
-  obras: `https://images.unsplash.com/photo-1504307651254-35680f356dfd?${q}`,
+  obras: `https://images.unsplash.com/photo-1541888946425-d81bb19240f5?${q}`,
   fiscalizacion: `https://images.unsplash.com/photo-1450101499163-c8848c66ca85?${q}`,
   cercania: `https://images.unsplash.com/photo-1556761175-5973dc0f32e7?${q}`,
   cercaniaAlt: "Dos personas conversando con una laptop en una mesa",
